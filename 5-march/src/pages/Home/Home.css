@@ -1,0 +1,54 @@
+.home{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    gap: 2rem;
+}
+
+
+/* Left-Section */
+.left-section{
+    background-color: aquamarine;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem 2rem 2rem;
+}
+
+
+/* Main-Section */
+.main-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-section-1{
+    height: 16.5rem;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+.main-section-2{
+    height: 16.5rem;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+
+
+/* Right-section */
+.right-section{
+    background-color: aquamarine;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 2rem 2rem 1rem;
+}

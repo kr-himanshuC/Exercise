@@ -1,0 +1,23 @@
+.navbar{
+    background-color: rgb(55, 54, 54);
+    display: flex;
+    gap: 3rem;
+    font-size: 1.8rem;
+    height: 5rem;
+    justify-content: flex-start;
+    padding-left: 2.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.navbar > a{
+    color: rgb(250, 225, 180) !important;
+    text-decoration: none;
+}
+
+
+.navbar a:hover{
+    cursor: pointer;
+    color: chocolate;
+    border-bottom: 1px solid rgb(237, 229, 229);
+}

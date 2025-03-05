@@ -1,0 +1,29 @@
+.Footer{
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+
+.Foo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid rgb(179, 176, 176);
+}
