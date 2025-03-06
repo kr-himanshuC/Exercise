@@ -1,0 +1,35 @@
+.App {
+  height: 100%;
+  text-align: center;
+  margin-top: 20rem;
+}
+
+.quantity{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.quantity_input{
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  background-color: antiquewhite;
+  width: 5rem;
+  height: 3rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.quantity__minus, .quantity__plus{
+  width: 5rem;
+  height: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: deepskyblue;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
