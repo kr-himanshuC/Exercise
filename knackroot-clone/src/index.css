@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme{
+  --font-montserrat: "montserrat", sans-serif;
+}
+
+@layer components{
+  .link{
+    @apply font-bold  text-[14px] p-2 
+  }
+}
+
+:root {
+  --primary-pink: #af5a9c;
+  --primary-cyan: #52b8d7;
+  --primary-blue: #44539f;
+  --primary-purple: #60348c;
+  --secondary-gray: #777c7f;
+  --blue-cyan: linear-gradient(90deg, #44539f, #52b8d7);
+  --purple-pink: linear-gradient(90deg, #60348c, #af5a9c);
+  --pink-blue: linear-gradient(90deg, #af5a9c, #52b8d7);
+  --bg-cyan: rgba(82, 184, 215, .1);
+  --white: #fafafa;
+}
+
+
+
