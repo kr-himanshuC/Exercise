@@ -8,7 +8,12 @@
 
 @layer components{
   .link{
-    @apply font-bold  text-[14px] p-2 
+    @apply font-bold  text-[14px] p-2  cursor-pointer  text-[var(--primary-blue)]
+    hover:text-[var(--primary-cyan)] 
+  }
+
+  .a-link{
+    @apply text-[#fff] opacity-50 hover:opacity-90 w-51 text-[14px] cursor-pointer
   }
 }
 
@@ -23,6 +28,10 @@
   --pink-blue: linear-gradient(90deg, #af5a9c, #52b8d7);
   --bg-cyan: rgba(82, 184, 215, .1);
   --white: #fafafa;
+}
+
+.bg-blue-cyan {
+  background: var(--blue-cyan);
 }
 
 
